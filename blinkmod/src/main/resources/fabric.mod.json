@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "blinkmod",
+  "version": "1.0.0",
+  "name": "Blink Mod",
+  "description": "Simple Blink (Delay Packets) mod for Fabric 1.16.5",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.blink.BlinkMod"
+    ]
+  },
+  "mixins": [
+    "blink.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
